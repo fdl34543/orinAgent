@@ -1,0 +1,27 @@
+{
+  "name": "orinweb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.20",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "styled-components": "^6.3.9",
+    "viem": "^2.45.3",
+    "wagmi": "^3.4.3"
+  },
+  "devDependencies": {
+    "babel-plugin-react-compiler": "1.0.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6"
+  }
+}
