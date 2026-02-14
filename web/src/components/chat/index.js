@@ -123,7 +123,7 @@ export default function Chat() {
     <Wrapper>
       <Header>Human Chat</Header>
 
-      <Messages>
+      <Messages ref={messagesRef}>
         {chatData.map((msg, index) => (
           <Message key={index}>
             <Username>{msg.username}:</Username>
@@ -131,7 +131,6 @@ export default function Chat() {
           </Message>
         ))}
 
-        <div ref={messagesEndRef} />
       </Messages>
 
       {!isConnected && (

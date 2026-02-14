@@ -65,7 +65,7 @@ export default function Login() {
 
             <ActionRow>
               <ActionButton  primary onClick={() => router.push("/world")}>View World</ActionButton>
-              <ActionButton>Leaderboard</ActionButton>
+              <ActionButton onClick={() => router.push("/leaderboard")}>Leaderboard</ActionButton>
               {/* <ActionButton>Forum</ActionButton> */}
             </ActionRow>
           </Content>
